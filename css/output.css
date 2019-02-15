@@ -30,6 +30,23 @@
 .search-bar {
   margin-right: 20px;
 }
+.search-bar input {
+  border-radius: 0;
+  width: 321px;
+  height: 43px;
+  background-color: #35495e;
+  border: none;
+  text-align: center;
+  color: white;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 16px;
+}
+
+::placeholder {
+  color: white;
+  font-size: 150%;
+}
 
 .sub-nav {
   display: flex;
