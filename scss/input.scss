@@ -1,0 +1,30 @@
+@import "reset";
+@import "variables";
+@import "mixins";
+
+
+.top-nav {
+  display: flex;
+  height: 151px;
+  width: 100%;
+  background-color:gray;
+  
+}
+
+.phone-number{
+  display: flex;
+  justify-content: space-between;
+  img {
+    height: 62.89px;
+    width: 120px;
+  }
+
+}
+.sub-nav {
+  display: flex;
+  align-items: center;
+  height: 46px;
+  width: 100%;
+  background-color: lightgray;
+  justify-content: space-around;
+}
