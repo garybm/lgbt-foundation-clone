@@ -29,8 +29,8 @@
 }
 
 .search-bar {
-margin-right: 20px;
-input {
+  margin-right: 20px;
+  input {
   border-radius: 0;
   width: 321px;
   height: 43px;
@@ -44,9 +44,11 @@ input {
  }
 }
 
-::placeholder {
-  color: white;
-  font-size: 150%;
+.search-bar {
+  ::placeholder {
+    color: white;
+    font-size: 150%;
+  }
 }
 
 
@@ -57,4 +59,12 @@ input {
   width: 100%;
   background-color: lightgray;
   justify-content: space-around;
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
 }
+// a:hover {
+//   background-color: pink gray black;
+// }
