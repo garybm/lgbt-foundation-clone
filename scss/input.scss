@@ -8,15 +8,24 @@
   height: 151px;
   width: 100%;
   background-color:gray;
-  
+  align-items: center;
+  justify-content: space-between;
+
+
+
 }
 
-.phone-number{
+.phone-number {
   display: flex;
-  justify-content: space-between;
-  img {
+  height: 66px;
+
+  img  {
     height: 62.89px;
     width: 120px;
+    margin-right: 10px;
+  }
+  p {
+    margin-right: 10px;
   }
 
 }

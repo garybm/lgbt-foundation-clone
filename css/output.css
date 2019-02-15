@@ -1,17 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .top-nav {
   display: flex;
   height: 151px;
   width: 100%;
   background-color: gray;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .phone-number {
   display: flex;
-  justify-content: space-between;
+  height: 66px;
 }
 .phone-number img {
   height: 62.89px;
   width: 120px;
+  margin-right: 10px;
+}
+.phone-number p {
+  margin-right: 10px;
 }
 
 .sub-nav {
