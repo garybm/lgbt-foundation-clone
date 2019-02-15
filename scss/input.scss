@@ -66,13 +66,55 @@
   }
 }
 
-//slide-show
+//main content
+.content-wrapper {
+display: flex;
+flex-direction: column;
 
-.hero {
+}
+
+.hero-image {
   width: 100%;
-  height: 550px;
   img {
     width: 100%;
+  }
+}
 
+.banner-content {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  height: 386px;
+}
+.sugar-spice {
+  background-color: red;
+  height: 386px;
+  img {
+    width: 100%
+  }
+}
+
+.get-support {
+  background-color: orange;
+  height: 386px;
+  width: 261px;
+  img {
+    width: 100%
+  }
+}
+
+.visit {
+  background-color: purple;
+  height: 386px;
+  width: 261px;
+  img {
+    width: 100%
   }
 }
