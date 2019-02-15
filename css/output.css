@@ -63,54 +63,97 @@
 
 .content-wrapper {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
-.hero-image {
-  width: 100%;
-}
-.hero-image img {
-  width: 100%;
+.main-frame {
+  display: flex;
+  width: 1279px;
+  flex-direction: column;
 }
 
 .banner-content {
   display: flex;
   height: 60px;
+  width: 100%;
   align-items: center;
   justify-content: center;
+  background-color: gray;
+  margin-bottom: 5px;
+  margin-top: 5px;
 }
 
 .middle-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
   height: 386px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.middle-content1 {
+  display: flex;
 }
 
 .sugar-spice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: red;
-  height: 386px;
+  padding: 10px;
 }
 .sugar-spice img {
   width: 100%;
 }
 
 .get-support {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: orange;
-  height: 386px;
-  width: 261px;
+  padding: 15px;
 }
 .get-support img {
   width: 100%;
 }
 
 .visit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: purple;
-  height: 386px;
-  width: 261px;
+  padding: 10px;
 }
 .visit img {
   width: 100%;
+}
+
+.small-cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 298px;
+  flex-direction: row;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.about-us {
+  background-color: blue;
+}
+
+.village {
+  background-color: pink;
+}
+
+.volunteer {
+  background-color: green;
+}
+
+.pride-in {
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=output.css.map */
