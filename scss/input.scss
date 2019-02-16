@@ -60,22 +60,17 @@ body {
   }
 }
 
-.sub-nav {
-  display:flex;
-
-}
-
 .sub-nav-content{
   @include center-content;
   height: 46px;
   width: 100%;
   background-color: #e1e4e7;
   border-bottom: 4px solid red;
-  justify-content:space-around;
+  justify-content: space-around;
+
   a {
     text-decoration: none;
     color: #35495e;
-
   }
 }
 .hero {
@@ -125,27 +120,27 @@ body {
   background-color: $purple;
 }
 
-//main content
+//MAIN FRAME CONTETN!!!
+
 .content-wrapper {
   display: flex;
   justify-content: center;
-  padding: 0 10px;
+
 }
 
 .main-frame {
-  width: 1300px;
+  // width: 1300px;
 }
 
 .banner-content {
+  display: flex;
   height: 70px;
   text-align: center;
-  width: 100%;
   // background-color: pink;
 }
 
 .middle-content {
   display: flex;
-  flex-direction:row;
   height: 386px;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -189,11 +184,9 @@ body {
 
 //small-cards
 .small-cards {
-  width: 100%;;
-  margin-bottom: 10px;
   display: flex;
+  margin-bottom: 10px;
   height: 298px;
-  flex-direction: row;
   h3,p {
     color: white;
   }
@@ -232,6 +225,7 @@ width: 320px;
 .overview-posts {
   display: flex;
   flex-direction: row;
+  width: 1300px;
   height: 334px;
 }
 .post {
@@ -260,16 +254,16 @@ width: 320px;
 
 
 
-@media screen and (max-width:1079px) {
-  .sub-nav-content {
-    height: 92px;
-  }
-}
-@media screen and (max-width:768px) {
-  .sub-nav-content a {
-    display: none;
-  }
-  .search-bar{
-    display: none;
-  }
-}
+// @media screen and (max-width:1079px) {
+//   .sub-nav-content {
+//     height: 92px;
+//   }
+// }
+// @media screen and (max-width:800px) {
+//   .sub-nav-content a {
+//     display: none;
+//   }
+//   .search-bar{
+//     display: none;
+//   }
+// }
