@@ -4,6 +4,7 @@
 
 body {
   font-family: 'Open Sans',sans-serif;
+  background-color: #fff;
 
 }
 .top-nav {
@@ -240,7 +241,34 @@ background-color: yellow;
   display: flex;
   flex-direction: row;
   height: 334px;
+  width: 100%
 }
+.post {
+  height: 334px;
+  width: 629px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: #35495e;
+  }
+}
+
+.bottom-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 175px;
+  background-color: #35495e;
+  color: white;
+  button {
+    width: 50px;
+  }
+}
+
 
 
 @media screen and (max-width:1079px) {
