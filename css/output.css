@@ -134,6 +134,10 @@ body {
   justify-content: center;
 }
 
+.main-frame {
+  width: 1300px;
+}
+
 .banner-content {
   display: flex;
   height: 70px;
@@ -159,6 +163,9 @@ body {
   align-items: center;
   background-color: red;
 }
+.sugar-spice img {
+  width: 100%;
+}
 
 .get-support {
   display: flex;
@@ -170,6 +177,9 @@ body {
   padding: 15px;
   background-color: #f90;
 }
+.get-support img {
+  width: 100%;
+}
 
 .visit {
   display: flex;
@@ -179,6 +189,9 @@ body {
   width: 320px;
   margin-left: 5px;
   padding: 15px;
+}
+.visit img {
+  width: 100%;
 }
 
 .small-cards {
@@ -254,6 +267,34 @@ body {
 }
 .bottom-banner button {
   width: 50px;
+}
+
+@media screen and (max-width: 1300px) {
+  .middle-content {
+    width: 100vw;
+  }
+
+  .small-cards {
+    width: 100vw;
+  }
+
+  .overview-posts {
+    width: 100vw;
+  }
+}
+@media screen and (max-width: 1079px) {
+  .sub-nav-content {
+    height: 92px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .sub-nav-content a {
+    display: none;
+  }
+
+  .search-bar {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */
