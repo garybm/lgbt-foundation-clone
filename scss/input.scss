@@ -191,7 +191,8 @@ body {
 
 
 //small-cards
-.small-cards {
+
+.small-card{
   display: flex;
   margin-bottom: 10px;
   height: 298px;
@@ -200,9 +201,9 @@ body {
   }
  }
 
-.card {
+.card-main {
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   align-items: center;
   padding: 15px;
 }
@@ -261,15 +262,18 @@ width: 320px;
 }
 
 @media screen and (max-width:1300px) {
-  .middle-content {
-    width:100vw;
-  }
-  .small-cards{
-    width:100vw;
-  }
-  .overview-posts{
-    width: 100vw;
-  }
+    .middle-content {
+      width:100vw;
+    }
+    .small-card{
+      width:100vw;
+    }
+    .overview-posts{
+      width: 100vw;
+    }
+    .small-card{
+      flex-direction: row;
+    }
 }
 
 @media screen and (max-width:1079px) {
