@@ -140,7 +140,7 @@ body {
 
 .main-frame {
   display: flex;
-  width: 1279px;
+  width: 1400px;
   flex-direction: column;
 }
 
@@ -153,12 +153,14 @@ body {
   margin-bottom: 5px;
   margin-top: 5px;
 }
+.banner-content p {
+  width: 100%;
+}
 
 .middle-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
   height: 386px;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -169,12 +171,15 @@ body {
 
 .middle-content1 {
   display: flex;
+  width: 600px;
+  justify-content: space-between;
 }
 .middle-content1 h3, .middle-content1 p {
   color: white;
 }
 
 .sugar-spice {
+  width: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -189,7 +194,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: orange;
+  width: 250px;
+  background-color: #f90;
   padding: 15px;
 }
 .get-support img {
@@ -200,7 +206,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: purple;
+  background-color: #905ba1;
+  width: 250px;
   padding: 10px;
 }
 .visit img {
@@ -210,7 +217,6 @@ body {
 .small-cards {
   display: flex;
   justify-content: space-between;
-  width: 100%;
   height: 298px;
   flex-direction: row;
 }
@@ -224,24 +230,23 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px;
-  background-color: blue;
-  width: 310px;
+  width: 300px;
 }
 
 .card1 {
-  background-color: blue;
+  background-color: #35495e;
 }
 
 .card2 {
-  background-color: pink;
+  background-color: #d9579b;
 }
 
 .card3 {
-  background-color: green;
+  background-color: #52b36d;
 }
 
 .card4 {
-  background-color: yellow;
+  background-color: #ffde56;
 }
 
 .overview-posts {
