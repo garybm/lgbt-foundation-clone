@@ -16,7 +16,7 @@ _This is a clone of the LGBT Foundation website homepage_
 * _Content should display_
 * _format_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+_If you would like to directly check out the page, here is the link to the Github page: https://garybm.github.io/lgbt-foundation-clone/_
 
 ## Known Bugs
 
