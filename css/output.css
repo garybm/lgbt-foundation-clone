@@ -136,70 +136,49 @@ body {
 .content-wrapper {
   display: flex;
   justify-content: center;
+  padding: 0 10px;
 }
 
 .main-frame {
-  display: flex;
-  width: 1400px;
-  flex-direction: column;
+  width: 1300px;
 }
 
 .banner-content {
-  display: flex;
   height: 70px;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 5px;
-  margin-top: 5px;
-}
-.banner-content p {
+  text-align: center;
   width: 100%;
 }
 
 .middle-content {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   height: 386px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .middle-content h3, .middle-content p {
   color: white;
 }
 
-.middle-content1 {
-  display: flex;
-  width: 600px;
-  justify-content: space-between;
-}
-.middle-content1 h3, .middle-content1 p {
-  color: white;
-}
-
 .sugar-spice {
-  width: 600px;
+  width: 645px;
+  margin-right: 5px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: red;
-  padding: 10px;
-}
-.sugar-spice img {
-  width: 100%;
 }
 
 .get-support {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 250px;
-  background-color: #f90;
+  width: 315px;
+  margin-right: 5px;
+  margin-left: 5px;
   padding: 15px;
-}
-.get-support img {
-  width: 100%;
+  background-color: #f90;
 }
 
 .visit {
@@ -207,16 +186,15 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #905ba1;
-  width: 250px;
-  padding: 10px;
-}
-.visit img {
-  width: 100%;
+  width: 320px;
+  margin-left: 5px;
+  padding: 15px;
 }
 
 .small-cards {
+  width: 100%;
+  margin-bottom: 10px;
   display: flex;
-  justify-content: space-between;
   height: 298px;
   flex-direction: row;
 }
@@ -228,37 +206,44 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-  width: 300px;
+  padding: 15px;
 }
 
 .card1 {
   background-color: #35495e;
+  width: 320px;
+  margin-right: 5px;
 }
 
 .card2 {
   background-color: #d9579b;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 315px;
 }
 
 .card3 {
   background-color: #52b36d;
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 315px;
 }
 
 .card4 {
   background-color: #ffde56;
+  margin-left: 5px;
+  width: 320px;
 }
 
 .overview-posts {
   display: flex;
   flex-direction: row;
   height: 334px;
-  width: 100%;
 }
 
 .post {
   height: 334px;
-  width: 629px;
+  width: 650px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -271,9 +256,9 @@ body {
 
 .bottom-banner {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 175px;
   background-color: #35495e;
   color: white;
