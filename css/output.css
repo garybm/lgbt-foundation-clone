@@ -13,11 +13,11 @@ body {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  color: #35495e;
 }
 
 .phone-number {
   display: flex;
-  height: 66px;
   margin-left: 40px;
   justify-content: space-between;
 }
@@ -28,6 +28,11 @@ body {
 }
 .phone-number p {
   padding: 10px;
+}
+.phone-number button {
+  border-radius: 0px;
+  height: 50px;
+  font-weight: bold;
 }
 
 .search-bar {
@@ -53,17 +58,21 @@ body {
 
 .sub-nav {
   display: flex;
+}
+
+.sub-nav-content {
+  display: flex;
+  justify-content: center;
   align-items: center;
   height: 46px;
   width: 100%;
-  background-color: lightgray;
-  justify-content: space-around;
+  background-color: #e1e4e7;
   border-bottom: 4px solid red;
+  justify-content: space-around;
 }
-.sub-nav a {
+.sub-nav-content a {
   text-decoration: none;
-  color: black;
-  font-weight: bold;
+  color: #35495e;
 }
 
 .hero {
@@ -238,6 +247,21 @@ body {
   display: flex;
   flex-direction: row;
   height: 334px;
+}
+
+@media screen and (max-width: 1079px) {
+  .sub-nav-content {
+    height: 92px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .sub-nav-content a {
+    display: none;
+  }
+
+  .search-bar {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=output.css.map */

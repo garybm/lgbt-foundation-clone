@@ -13,22 +13,26 @@ body {
   // background-color:gray;
   align-items: center;
   justify-content: space-between;
+  color: #35495e;
 
 }
 
 .phone-number {
   display: flex;
-  height: 66px;
   margin-left: 40px;
   justify-content: space-between;
   img  {
     height: 62.89px;
     width: 120px;
     padding: 10px;
-
   }
   p {
     padding: 10px;
+  }
+  button {
+    border-radius: 0px;
+    height: 50px;
+    font-weight: bold;
   }
 }
 
@@ -56,17 +60,21 @@ body {
 }
 
 .sub-nav {
-  display: flex;
-  align-items: center;
+  display:flex;
+
+}
+
+.sub-nav-content{
+  @include center-content;
   height: 46px;
   width: 100%;
-  background-color: lightgray;
-  justify-content: space-around;
+  background-color: #e1e4e7;
   border-bottom: 4px solid red;
+  justify-content:space-around;
   a {
     text-decoration: none;
-    color: black;
-    font-weight: bold;
+    color: #35495e;
+
   }
 }
 .hero {
@@ -232,4 +240,19 @@ background-color: yellow;
   display: flex;
   flex-direction: row;
   height: 334px;
+}
+
+
+@media screen and (max-width:1079px) {
+  .sub-nav-content {
+    height: 92px;
+  }
+}
+@media screen and (max-width:768px) {
+  .sub-nav-content a {
+    display: none;
+  }
+  .search-bar{
+    display: none;
+  }
 }

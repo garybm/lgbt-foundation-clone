@@ -6,3 +6,10 @@
   font-size:2vw;
   padding:1vw;
 }
+
+
+@mixin center-content {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
