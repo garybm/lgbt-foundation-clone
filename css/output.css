@@ -146,7 +146,6 @@ body {
 
 .middle-content {
   display: flex;
-  height: 386px;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -155,16 +154,15 @@ body {
 }
 
 .middle-content1 {
+  width: 650px;
   display: flex;
 }
 
 .sugar-spice {
-  width: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: red;
-  padding: 15px;
 }
 .sugar-spice img {
   width: 100%;
@@ -174,8 +172,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 325px;
-  padding: 15px;
   background-color: #f90;
 }
 .get-support img {
@@ -187,8 +183,6 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #905ba1;
-  width: 325px;
-  padding: 15px;
 }
 .visit img {
   width: 100%;
@@ -197,19 +191,17 @@ body {
 .middle-content2 {
   display: flex;
   margin-bottom: 20px;
-  height: 298px;
 }
 
 .middle-tablet {
-  display: flex;
   width: 650px;
+  display: flex;
 }
 
 .card-sample {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
   width: 325px;
 }
 .card-sample img {
@@ -276,10 +268,6 @@ body {
   .main-frame {
     width: 100vw;
   }
-
-  .middle-content2 {
-    width: 100vw;
-  }
 }
 @media screen and (max-width: 1024px) {
   .sub-nav-content {
@@ -289,12 +277,10 @@ body {
   .middle-content {
     flex-direction: column;
     width: 100vw;
-    height: auto;
-    margin-bottom: 5vw;
   }
 
   .sugar-spice {
-    width: 1024px;
+    width: 100vw;
     flex-direction: column;
     margin-bottom: 5vw;
   }
@@ -306,9 +292,18 @@ body {
   .middle-content1 .get-support, .middle-content1 .visit {
     width: 512px;
   }
+  .middle-content1 .get-support {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .middle-content1 .visit {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
 
   .middle-content2 {
     flex-direction: column;
+    width: 100vw;
     height: auto;
   }
 
@@ -318,6 +313,8 @@ body {
   }
   .middle-tablet .card-sample {
     width: 512px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 }
 @media screen and (max-width: 800px) {

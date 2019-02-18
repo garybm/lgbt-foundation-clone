@@ -140,7 +140,6 @@ body {
 //MIDLE CONTENT
 .middle-content{
   display:flex;
-  height: 386px;
   margin-bottom: 20px;
   margin-top: 20px;
   h3,p {
@@ -148,16 +147,17 @@ body {
   }
 }
 .middle-content1 {
+  width: 650px;
   display: flex;
+
 }
 
 .sugar-spice{
-  width: 650px;
   display: flex;
   flex-direction: column;
   align-items:center;
   background-color: $red;
-  padding: 15px;
+  // padding: 10px;
   img {
     width: 100%;
   }
@@ -167,10 +167,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 325px;
-  // margin-right: 10px;
-  // margin-left: 10px;
-  padding: 15px;
+
+
   background-color: $orange;
   img {
     width: 100%;
@@ -182,10 +180,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: $purple;
-  width: 325px;
-  padding: 15px;
-  // margin-left: 10px;
-  // padding: 15px;
+
+
   img {
     width: 100%;
    }
@@ -196,18 +192,16 @@ body {
 .middle-content2 {
   display:flex;
   margin-bottom:20px;
-  height:298px;
  }
  .middle-tablet {
-   display: flex;
    width: 650px;
+   display: flex;
  }
 
 .card-sample {
   display: flex;
   flex-direction:column;
   align-items: center;
-  padding: 15px;
   width: 325px;
   img {
     width: 100%;
@@ -219,24 +213,18 @@ body {
 
 .card1 {
   background-color: $blue-banner;
-  // margin-right: 20px;
-
 }
+
 .card2 {
   background-color: $pink;
-  // margin-right: 10px;
-  // margin-left: 10px;
-
 }
+
 .card3 {
 background-color: $green;
-// margin-right: 10px;
-// margin-left: 10px;
-
 }
+
 .card4 {
 background-color: $yellow;
-// margin-left: 10px;
 }
 
 .overview-posts {
@@ -278,9 +266,6 @@ background-color: $yellow;
   .main-frame  {
     width: 100vw;
   }
-  .middle-content2 {
-    width: 100vw;
-  }
 }
 
 //Tablet View
@@ -293,11 +278,9 @@ background-color: $yellow;
   .middle-content {
     flex-direction: column;
     width: 100vw;
-    height: auto;
-    margin-bottom: 5vw;
   }
   .sugar-spice {
-    width: 1024px;
+    width: 100vw;
     flex-direction: column;
     margin-bottom: 5vw;
     // margin-left: 5vw;
@@ -306,20 +289,34 @@ background-color: $yellow;
   .middle-content1 {
     width: 100vw;
     height: auto;
+
     .get-support, .visit {
       width: 512px;
+    }
+    .get-support {
+    margin-left: 5px;
+    margin-right: 5px;
+    }
+    .visit {
+      margin-right: 5px;
+      margin-left: 5px;
     }
   }
   .middle-content2 {
     flex-direction: column;
+    width: 100vw;
     height: auto;
    }
 
    .middle-tablet {
      width: 100vw;
      margin-bottom: 5vw;
+
+
      .card-sample {
-       width: 512px;
+      width: 512px;
+      margin-right: 5px;
+      margin-left: 5px;
      }
    }
 
