@@ -64,7 +64,7 @@ body {
   height: 46px;
   width: 100%;
   background-color: #e1e4e7;
-  border-bottom: 4px solid red;
+  border-bottom: 5px solid red;
   justify-content: space-around;
 }
 .sub-nav-content a {
@@ -154,14 +154,17 @@ body {
   color: white;
 }
 
+.middle-content1 {
+  display: flex;
+}
+
 .sugar-spice {
-  width: 645px;
-  margin-right: 5px;
-  padding: 15px;
+  width: 650px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: red;
+  padding: 15px;
 }
 .sugar-spice img {
   width: 100%;
@@ -171,9 +174,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 315px;
-  margin-right: 5px;
-  margin-left: 5px;
+  width: 325px;
   padding: 15px;
   background-color: #f90;
 }
@@ -186,60 +187,57 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: #905ba1;
-  width: 320px;
-  margin-left: 5px;
+  width: 325px;
   padding: 15px;
 }
 .visit img {
   width: 100%;
 }
 
-.small-card {
+.middle-content2 {
   display: flex;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   height: 298px;
 }
-.small-card h3, .small-card p {
-  color: white;
+
+.middle-tablet {
+  display: flex;
+  width: 650px;
 }
 
-.card-main {
+.card-sample {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 15px;
+  width: 325px;
+}
+.card-sample img {
+  width: 100%;
+}
+.card-sample h3, .card-sample p {
+  color: white;
 }
 
 .card1 {
   background-color: #35495e;
-  width: 320px;
-  margin-right: 5px;
 }
 
 .card2 {
   background-color: #d9579b;
-  margin-right: 5px;
-  margin-left: 5px;
-  width: 315px;
 }
 
 .card3 {
   background-color: #52b36d;
-  margin-right: 5px;
-  margin-left: 5px;
-  width: 315px;
 }
 
 .card4 {
   background-color: #ffde56;
-  margin-left: 5px;
-  width: 320px;
 }
 
 .overview-posts {
   display: flex;
   flex-direction: row;
-  width: 1300px;
   height: 334px;
 }
 
@@ -269,26 +267,57 @@ body {
   width: 50px;
 }
 
+.footer {
+  height: 349px;
+  background-color: #d7dbdf;
+}
+
 @media screen and (max-width: 1300px) {
-  .middle-content {
+  .main-frame {
     width: 100vw;
   }
 
-  .small-card {
+  .middle-content2 {
     width: 100vw;
-  }
-
-  .overview-posts {
-    width: 100vw;
-  }
-
-  .small-card {
-    flex-direction: row;
   }
 }
-@media screen and (max-width: 1079px) {
+@media screen and (max-width: 1024px) {
   .sub-nav-content {
     height: 92px;
+  }
+
+  .middle-content {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 5vw;
+  }
+
+  .sugar-spice {
+    width: 1024px;
+    flex-direction: column;
+    margin-bottom: 5vw;
+  }
+
+  .middle-content1 {
+    width: 100vw;
+    height: auto;
+  }
+  .middle-content1 .get-support, .middle-content1 .visit {
+    width: 512px;
+  }
+
+  .middle-content2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .middle-tablet {
+    width: 100vw;
+    margin-bottom: 5vw;
+  }
+  .middle-tablet .card-sample {
+    width: 512px;
   }
 }
 @media screen and (max-width: 800px) {

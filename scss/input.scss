@@ -65,7 +65,7 @@ body {
   height: 46px;
   width: 100%;
   background-color: #e1e4e7;
-  border-bottom: 4px solid red;
+  border-bottom: 5px solid red;
   justify-content: space-around;
 
   a {
@@ -147,15 +147,17 @@ body {
     color: white;
   }
 }
+.middle-content1 {
+  display: flex;
+}
 
 .sugar-spice{
-  width: 645px;
-  margin-right: 5px;
-  padding: 15px;
+  width: 650px;
   display: flex;
   flex-direction: column;
   align-items:center;
   background-color: $red;
+  padding: 15px;
   img {
     width: 100%;
   }
@@ -165,15 +167,14 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 315px;
-  margin-right: 5px;
-  margin-left: 5px;
+  width: 325px;
+  // margin-right: 10px;
+  // margin-left: 10px;
   padding: 15px;
   background-color: $orange;
   img {
     width: 100%;
   }
-
 }
 
 .visit {
@@ -181,60 +182,66 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: $purple;
-  width: 320px;
-  margin-left: 5px;
+  width: 325px;
   padding: 15px;
+  // margin-left: 10px;
+  // padding: 15px;
   img {
     width: 100%;
    }
   }
 
+//MIDDLE CONTENT 2
 
-//small-cards
-
-.small-card{
-  display: flex;
-  margin-bottom: 10px;
-  height: 298px;
-  h3,p {
-    color: white;
-  }
+.middle-content2 {
+  display:flex;
+  margin-bottom:20px;
+  height:298px;
+ }
+ .middle-tablet {
+   display: flex;
+   width: 650px;
  }
 
-.card-main {
+.card-sample {
   display: flex;
   flex-direction:column;
   align-items: center;
   padding: 15px;
+  width: 325px;
+  img {
+    width: 100%;
+  }
+  h3, p {
+  color: white;
+  }
 }
+
 .card1 {
   background-color: $blue-banner;
-  width: 320px;
-  margin-right: 5px;
+  // margin-right: 20px;
 
 }
 .card2 {
   background-color: $pink;
-  margin-right: 5px;
-  margin-left: 5px;
-  width: 315px;
+  // margin-right: 10px;
+  // margin-left: 10px;
+
 }
 .card3 {
 background-color: $green;
-margin-right: 5px;
-margin-left: 5px;
-width: 315px;
+// margin-right: 10px;
+// margin-left: 10px;
+
 }
 .card4 {
 background-color: $yellow;
-margin-left: 5px;
-width: 320px;
+// margin-left: 10px;
 }
 
 .overview-posts {
   display: flex;
   flex-direction: row;
-  width: 1300px;
   height: 334px;
 }
 .post {
@@ -261,25 +268,61 @@ width: 320px;
   }
 }
 
-@media screen and (max-width:1300px) {
-    .middle-content {
-      width:100vw;
-    }
-    .small-card{
-      width:100vw;
-    }
-    .overview-posts{
-      width: 100vw;
-    }
-    .small-card{
-      flex-direction: row;
-    }
+.footer {
+  height: 349px;
+  background-color: #d7dbdf;
 }
 
-@media screen and (max-width:1079px) {
+//Desktop View
+@media screen and (max-width:1300px){
+  .main-frame  {
+    width: 100vw;
+  }
+  .middle-content2 {
+    width: 100vw;
+  }
+}
+
+//Tablet View
+
+@media screen and (max-width:1024px) {
   .sub-nav-content {
     height: 92px;
   }
+
+  .middle-content {
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    margin-bottom: 5vw;
+  }
+  .sugar-spice {
+    width: 1024px;
+    flex-direction: column;
+    margin-bottom: 5vw;
+    // margin-left: 5vw;
+
+  }
+  .middle-content1 {
+    width: 100vw;
+    height: auto;
+    .get-support, .visit {
+      width: 512px;
+    }
+  }
+  .middle-content2 {
+    flex-direction: column;
+    height: auto;
+   }
+
+   .middle-tablet {
+     width: 100vw;
+     margin-bottom: 5vw;
+     .card-sample {
+       width: 512px;
+     }
+   }
+
 }
 @media screen and (max-width:800px) {
   .sub-nav-content a {
